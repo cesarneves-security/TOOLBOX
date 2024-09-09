@@ -36,7 +36,7 @@ git clone https://github.com/cesarneves-security/TOOLBOX.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
-cd ToolBox
+cd TOOLBOX
 ```
 3. Executar Ferramenta:
 ```bash
