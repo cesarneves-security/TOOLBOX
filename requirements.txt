@@ -1,0 +1,12 @@
+scapy
+pandas
+matplotlib
+pyqt5
+cryptography
+colorama
+pyperclip
+hachoir
+piexif
+paramiko
+bs4
+watchdog
