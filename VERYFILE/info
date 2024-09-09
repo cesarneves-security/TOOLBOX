@@ -1,0 +1,28 @@
+Biografia da Ferramenta "Veryfile"
+Nome: Veryfile
+
+Descrição:
+Veryfile é uma ferramenta inovadora desenvolvida para analisar arquivos e diretórios em busca de códigos maliciosos e ameaças à segurança. Com uma interface amigável e funcionalidades robustas, Veryfile permite que usuários realizem análises detalhadas de arquivos locais e URLs, garantindo a proteção de seus sistemas contra malware.
+
+    #Funcionalidades Principais:
+
+Análise de Arquivos: Permite a verificação de arquivos individuais em busca de padrões de código malicioso.
+
+Varredura de Diretórios: Analisa todos os arquivos em um diretório específico, identificando potenciais ameaças.
+
+Monitoramento em Tempo Real: Oferece a capacidade de monitorar diretórios em tempo real, alertando o usuário sobre alterações e possíveis infecções.
+
+Análise de URLs: Realiza verificações de segurança em URLs, informando se estão ativas e se contêm malware.
+
+Configuração de Extensões Suspeitas: Permite que os usuários definam quais extensões de arquivo devem ser analisadas, personalizando a proteção.
+
+Objetivo:
+O objetivo do Veryfile é proporcionar uma camada adicional de segurança para usuários e administradores de sistemas, facilitando a detecção e prevenção de ameaças cibernéticas. Com uma abordagem proativa, Veryfile ajuda a manter a integridade e a segurança dos dados.
+
+Público-Alvo:
+Veryfile é ideal para profissionais de TI, desenvolvedores, e qualquer pessoa que deseje proteger seus sistemas contra malware e outras ameaças digitais.
+
+#VERYFILE
+#PYTHON3
+#KALILINUX
+#UNIX

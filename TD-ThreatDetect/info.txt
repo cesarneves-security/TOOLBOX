@@ -1,0 +1,75 @@
+TIPOS DE VERIFICAÇÕES:
+    Verificação em uma lista negra.
+    Análise de padrões suspeitos.
+    Análise do conteúdo da página.
+
+Verificação na Lista Negra: 
+    Primeiro, verifica se a URL está na lista negra.
+
+Verificação de Padrões: 
+    Em seguida, verifica padrões suspeitos na URL.
+    
+Análise de Conteúdo: 
+    Por fim, faz uma requisição para a URL e analisa
+    o conteúdo da página em busca de formulários de login, 
+    que podem indicar phishing.
+
+
+import requests
+from bs4 import BeautifulSoup
+import re
+
+# Lista de URLs maliciosas (exemplo simplificado)
+lista_negra = [
+    "http://malicious-site.com",
+    "http://phishing-example.com",
+    "http://fake-login.com"
+]
+
+def verificar_url_lista_negra(url):
+    """Verifica se a URL está na lista negra."""
+    if url in lista_negra:
+        return "URL maliciosa identificada na lista negra."
+    return None
+
+def verificar_patterns(url):
+    """Verifica a URL em busca de padrões suspeitos."""
+    if re.search(r'[\@\%\!\=\?]', url) or len(url) > 75:
+        return "URL suspeita devido a padrões comuns."
+    return None
+
+def analisar_conteudo(url):
+    """Analisa o conteúdo da página para sinais de phishing."""
+    try:
+        resposta = requests.get(url)
+        soup = BeautifulSoup(resposta.content, 'html.parser')
+        # Verifique se há sinais de phishing (ex: formulários de login)
+        if soup.find('form'):
+            return "URL suspeita: contém um formulário de login."
+        return None
+    except Exception as e:
+        return f"Erro ao acessar a URL: {e}"
+
+def verificar_url(url):
+    """Verifica a URL usando todas as abordagens."""
+    # Verificação na lista negra
+    resultado = verificar_url_lista_negra(url)
+    if resultado:
+        return resultado
+    
+    # Verificação de padrões
+    resultado = verificar_patterns(url)
+    if resultado:
+        return resultado
+    
+    # Análise de conteúdo
+    resultado = analisar_conteudo(url)
+    if resultado:
+        return resultado
+    
+    return "URL aparentemente segura."
+
+# Teste a função com uma URL
+url_teste = "http://exemplo.com"
+resultado = verificar_url(url_teste)
+print(resultado)

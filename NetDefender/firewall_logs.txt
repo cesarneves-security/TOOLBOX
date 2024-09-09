@@ -1,0 +1,87 @@
+Sun Sep  1 20:44:16 2024: Atividade suspeita detectada de 192.168.18.11.
+Sun Sep  1 20:44:22 2024: Atividade suspeita detectada de 105.174.45.202.
+Sun Sep  1 20:52:49 2024: Atividade suspeita detectada de 192.168.18.11.
+Sun Sep  1 20:52:52 2024: Atividade suspeita detectada de 172.217.165.206.
+Sun Sep  1 20:59:18 2024: Atividade suspeita detectada de 192.168.18.11.
+Sun Sep  1 20:59:18 2024: Atividade suspeita detectada de 105.174.45.202.
+Sun Sep  1 21:06:12 2024: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP.
+Sun Sep  1 21:06:12 2024: Atividade suspeita detectada de 172.217.15.206 usando protocolo TCP.
+Sun Sep  1 21:06:17 2024: Atividade suspeita detectada de 105.174.45.202 usando protocolo UDP.
+Sun Sep  1 21:06:53 2024: Atividade suspeita detectada de 207.244.89.161 usando protocolo TCP.
+Sun Sep  1 21:07:41 2024: Atividade suspeita detectada de 177.35.243.172 usando protocolo UDP.
+Sun Sep  1 21:08:25 2024: Atividade suspeita detectada de 195.154.125.56 usando protocolo UDP.
+Sun Sep  1 21:08:39 2024: Atividade suspeita detectada de 188.25.238.40 usando protocolo UDP.
+Sun Sep  1 21:08:58 2024: Atividade suspeita detectada de 105.172.112.126 usando protocolo ICMP.
+Sun Sep  1 21:09:41 2024: Atividade suspeita detectada de 152.199.19.160 usando protocolo TCP.
+Sun Sep  1 21:11:40 2024: Atividade suspeita detectada de 105.172.190.119 usando protocolo UDP.
+Sun Sep  1 21:11:52 2024: Atividade suspeita detectada de 13.107.5.93 usando protocolo TCP.
+Sun Sep  1 21:13:04 2024: Atividade suspeita detectada de 82.145.216.19 usando protocolo TCP.
+Sun Sep  1 21:13:12 2024: Atividade suspeita detectada de 192.168.18.1 usando protocolo UDP.
+Sun Sep  1 21:14:12 2024: Atividade suspeita detectada de 82.145.216.20 usando protocolo TCP.
+2024-09-01 21:51:42: Ataque DDoS detectado de 192.168.18.11. Bloqueio aplicado.
+Sun Sep  1 22:00:01 2024: Atividade suspeita detectada de 192.168.18.11 usando protocolo 2.
+Sun Sep  1 22:02:41 2024: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP.
+Sun Sep  1 22:02:45 2024: Atividade suspeita detectada de 185.26.182.94 usando protocolo TCP.
+Sun Sep  1 22:02:45 2024: Atividade suspeita detectada de 185.26.182.111 usando protocolo TCP.
+Sun Sep  1 22:02:45 2024: Atividade suspeita detectada de 192.168.18.1 usando protocolo UDP.
+Sun Sep  1 22:02:46 2024: Atividade suspeita detectada de 82.145.216.16 usando protocolo TCP.
+Sun Sep  1 22:02:46 2024: Atividade suspeita detectada de 185.26.182.118 usando protocolo TCP.
+Sun Sep  1 22:02:47 2024: Atividade suspeita detectada de 34.54.250.129 usando protocolo TCP.
+Sun Sep  1 22:02:48 2024: Atividade suspeita detectada de 185.26.182.93 usando protocolo TCP.
+Sun Sep  1 22:02:48 2024: Atividade suspeita detectada de 172.217.165.193 usando protocolo TCP.
+Sun Sep  1 22:02:50 2024: Atividade suspeita detectada de 207.244.89.161 usando protocolo TCP.
+2024-09-01 22:05:31: Atividade suspeita detectada de 192.168.18.11. Bloqueio aplicado.
+2024-09-01 22:06:07: Atividade suspeita detectada de 172.217.15.206. Bloqueio aplicado.
+2024-09-01 22:06:52: Atividade suspeita detectada de 207.244.89.161. Bloqueio aplicado.
+2024-09-01 22:07:28: Atividade suspeita detectada de 105.172.112.126. Bloqueio aplicado.
+2024-09-01 22:07:41: Atividade suspeita detectada de 188.25.238.40. Bloqueio aplicado.
+2024-09-01 22:08:50: Atividade suspeita detectada de 177.35.243.172. Bloqueio aplicado.
+2024-09-01 22:09:11: Atividade suspeita detectada de 192.168.18.1. Bloqueio aplicado.
+2024-09-01 22:09:11: Atividade suspeita detectada de 189.14.15.82. Bloqueio aplicado.
+2024-09-01 22:09:47: Atividade suspeita detectada de 195.154.125.56. Bloqueio aplicado.
+2024-09-01 22:10:08: Atividade suspeita detectada de 152.199.19.160. Bloqueio aplicado.
+2024-09-01 22:11:34: Atividade suspeita detectada de 172.217.165.202. Bloqueio aplicado.
+2024-09-01 22:11:40: Atividade suspeita detectada de 105.172.190.119. Bloqueio aplicado.
+2024-09-01 22:11:52: Atividade suspeita detectada de 13.107.5.93. Bloqueio aplicado.
+2024-09-01 22:12:30: Atividade suspeita detectada de 40.74.98.195. Bloqueio aplicado.
+2024-09-01 22:12:32: Atividade suspeita detectada de 172.217.165.206. Bloqueio aplicado.
+2024-09-01 22:13:28: Atividade suspeita detectada de 192.168.18.11 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:22:06: Atividade suspeita detectada de 192.168.18.11 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:22:51: Atividade suspeita detectada de 188.25.238.40 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:27:18: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:27:49: Atividade suspeita detectada de 172.217.165.206 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:27:56: Atividade suspeita detectada de 192.168.18.1 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:27:58: Atividade suspeita detectada de 20.42.73.30 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:27:59: Atividade suspeita detectada de 20.50.73.13 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:28:20: Atividade suspeita detectada de 20.42.72.131 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:28:36: Atividade suspeita detectada de 188.25.238.40 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:28:55: Atividade suspeita detectada de 20.189.173.7 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:29:04: Atividade suspeita detectada de 177.35.243.172 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:29:31: Atividade suspeita detectada de 189.14.15.82 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 22:29:49: Atividade suspeita detectada de 20.42.73.27 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 22:30:18: Atividade suspeita detectada de 105.172.112.126 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:47:21: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:47:21: Atividade suspeita detectada de 172.217.15.206 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:47:41: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:47:41: Atividade suspeita detectada de 172.217.15.206 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:50:04: Atividade suspeita detectada de 192.168.18.11 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:50:21: Atividade suspeita detectada de 172.217.15.206 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:50:50: Atividade suspeita detectada de 192.168.18.1 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:50:52: Atividade suspeita detectada de 20.189.173.13 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:50:58: Atividade suspeita detectada de 177.35.243.172 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:52:56: Atividade suspeita detectada de 105.172.112.126 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:53:01: Atividade suspeita detectada de 188.25.238.40 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:53:58: Atividade suspeita detectada de 192.168.18.12 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:55:24: Atividade suspeita detectada de 195.154.125.56 usando protocolo UDP. Bloqueio aplicado.
+2024-09-01 23:57:25: Atividade suspeita detectada de 20.42.73.31 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:57:33: Atividade suspeita detectada de 207.244.89.161 usando protocolo TCP. Bloqueio aplicado.
+2024-09-01 23:57:36: Atividade suspeita detectada de 185.26.182.112 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:17:06: Atividade suspeita detectada de 192.168.18.11 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:17:07: Atividade suspeita detectada de 172.64.150.207 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:17:11: Atividade suspeita detectada de 20.42.65.89 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:17:49: Atividade suspeita detectada de 52.182.143.213 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:17:50: Atividade suspeita detectada de 104.18.95.41 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:18:37: Atividade suspeita detectada de 185.26.182.93 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:18:39: Atividade suspeita detectada de 192.168.18.1 usando protocolo UDP. Bloqueio aplicado.
+2024-09-02 13:19:01: Atividade suspeita detectada de 3.160.132.35 usando protocolo TCP. Bloqueio aplicado.
+2024-09-02 13:19:25: Atividade suspeita detectada de 192.168.18.12 usando protocolo UDP. Bloqueio aplicado.

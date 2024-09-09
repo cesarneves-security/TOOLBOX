@@ -1,0 +1,20 @@
+Documentação:
+
+Crie um arquivo README.md com uma descrição do projeto, como instalar e usar o NetDefender, e exemplos de comandos.
+
+Testes:
+Implemente testes unitários para garantir que as funcionalidades do firewall estejam a funcionar corretamente.
+
+Funcionalidades Adicionais:
+Considere adicionar funcionalidades como:
+Logs de atividade do firewall.
+Opções de configuração avançadas.
+Suporte a diferentes tipos de regras (como baseadas em IP, porta, etc.).
+
+Interface Gráfica (Futuro):
+Quando estiver pronto, você pode pensar em implementar uma interface gráfica para tornar o uso mais amigável.
+
+Distribuição:
+Pense em como você gostaria de distribuir o NetDefender, seja como um pacote Python ou um executável.
+Se precisar de assistência em qualquer uma dessas etapas ou tiver mais perguntas, é só avisar! Boa sorte com o desenvolvimento do NetDefender! 🚀
+

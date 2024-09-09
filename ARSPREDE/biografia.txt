@@ -1,0 +1,28 @@
+#NOVA FERRAMENTA
+# Biografia da Ferramenta "ARSP-REDE"
+
+GITHUB: https://github.com/cesarneves-security/ARSP-REDE.git
+
+## Introdução
+A **ARSP-REDE** é uma ferramenta inovadora desenvolvida para análise de pacotes de rede, projetada para fornecer insights detalhados sobre o tráfego de dados em ambientes de rede. Com funcionalidades intuitivas e uma interface gráfica amigável, a ARSP-REDE permite que tanto profissionais de segurança da informação quanto entusiastas da tecnologia monitorem e analisem o tráfego de rede em tempo real.
+
+
+## Objetivo
+O principal objetivo da ARSP-REDE é facilitar a identificação de padrões de tráfego e comportamentos suspeitos, contribuindo para a segurança e integridade das redes. A ferramenta é capaz de capturar pacotes, analisar protocolos e gerar relatórios sobre a atividade da rede, permitindo uma resposta rápida a potenciais ameaças.
+
+## Tecnologias Utilizadas
+A ARSP-REDE foi desenvolvida utilizando as seguintes tecnologias:
+- **Python**: Linguagem de programação principal, escolhida por sua simplicidade e robustez.
+- **Scapy**: Biblioteca fundamental para a captura e análise de pacotes de rede.
+- **Pandas**: Utilizada para manipulação e análise de dados, permitindo um tratamento eficaz das informações capturadas.
+- **Matplotlib**: Biblioteca de visualização que possibilita a criação de gráficos interativos.
+- **PyQt5**: Framework para desenvolvimento da interface gráfica do usuário, proporcionando uma experiência interativa e amigável.
+
+
+## Conclusão
+A ARSP-REDE é uma ferramenta poderosa e versátil que atende às necessidades de análise de pacotes em redes, oferecendo recursos avançados para monitoramento e segurança. Com sua interface intuitiva e funcionalidades abrangentes, a ARSP-REDE não apenas melhora a visibilidade sobre o tráfego de rede, mas também fortalece a capacidade de resposta a incidentes de segurança. É uma solução essencial para qualquer profissional que busca proteger suas redes e garantir a integridade dos dados em um mundo cada vez mais conectado.
+
+#ARSP-REDE
+#PYTHON
+#PYTHON3
+#KALILINUX

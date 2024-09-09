@@ -1,0 +1,77 @@
+# Relatório do Projeto de Firewall
+
+## Introdução
+Este projeto tem como objetivo implementar um sistema de firewall que permite o controle de tráfego de rede, incluindo a detecção de atividades suspeitas e o bloqueio de IPs maliciosos. O sistema utiliza regras configuráveis para determinar quais conexões são permitidas ou bloqueadas.
+
+## Funcionalidades do Sistema
+
+### 1. Regras de Firewall
+- **Permitir (Allow)**: Permite o tráfego que atende aos critérios especificados.
+- **Bloquear (Deny)**: Impede o tráfego que atende aos critérios especificados.
+
+### 2. Detecção de Atividades Suspeitas
+- **Tentativas de Conexão**: Um IP será monitorado para tentativas de conexão. Se um IP atingir **4 tentativas**, será impressa a mensagem:
+  - **Mensagem:** "Protocolo verificado (protocolo) detectando atividades suspeitas de (ip)."
+  - **Cor:** Amarela
+
+### 3. Bloqueio de IPs
+- IPs que ultrapassarem o limite de tentativas permitidas serão **bloqueados** e a mensagem será impressa em **vermelho**.
+
+## Menu de Opções
+
+### 1. Adicionar Regra
+- **Input:** `protocol = input("Protocolo (TCP/UDP): ")`
+- **Descrição:** Permite adicionar novos protocolos, além de TCP e UDP, para regras de firewall. Os usuários podem especificar outros protocolos conforme necessário.
+
+### 2. Monitorar IPs
+- **Função:** O sistema monitora todos os IPs que tentam se conectar e verifica suas tentativas.
+
+### 3. Bloquear IP Suspeito
+- **Ação:** Se um IP atinge o limite de tentativas, ele é bloqueado e notificado.
+
+## Exemplo de Uso
+
+1. **Adicionar uma Regra**:
+   - O usuário pode adicionar uma regra informando o protocolo desejado. O sistema receberá essa informação e atualizará as regras de acordo.
+
+2. **Monitorar Conexões**:
+   - O sistema ficará ativo monitorando as tentativas de conexão. Ao atingir 4 tentativas, a mensagem de alerta em amarelo será exibida.
+
+3. **Bloqueio de IP**:
+   - Se o IP continuar a tentar se conectar após 4 tentativas, será bloqueado e uma mensagem em vermelho será exibida.
+
+## Conclusão
+Este projeto oferece um sistema robusto de firewall com capacidades de monitoramento e bloqueio de IPs suspeitos. As regras configuráveis permitem que os usuários personalizem a segurança da rede conforme suas necessidades. Para qualquer dúvida ou necessidade de ajustes, sinta-se à vontade para solicitar!
+
+Se precisar de mais detalhes ou tiver outras perguntas, estou aqui para ajudar! 😊
+
+
+
+
+
+#FIZ ATTACK DDOS PARA TESTAR O #FIREWALL QUE CRIEI.
+#NOVO PROJECTO, CRIEI UM FIREWALL PARA PROTEGER O MEU COMPUTADOR. #NETDEFENDER
+
+Durante dois meses eu estudei sobre #firewall e levei mais 1 mês para criar esse pequeno #firewall
+#OBS: esse #firewall não protege a sua rede no geral, só a conexão da rede com o teu computador.
+
+BIOGRAFIA: 
+Filtragem de Pacotes: O NetDefender analisa e controla o tráfego de dados que entra e sai da rede, permitindo ou bloqueando pacotes com base em regras predefinidas.
+
+Detecção de Intrusões: Utiliza algoritmos avançados para identificar e responder a atividades suspeitas em tempo real, protegendo contra tentativas de invasão.
+
+Relatórios e Logs: Gera relatórios detalhados sobre o tráfego da rede e eventos de segurança, permitindo uma análise aprofundada e auditoria.
+
+Atualizações Automáticas: Mantém o sistema sempre atualizado com as últimas definições de segurança, garantindo proteção contra novas ameaças.
+
+Futuras Melhorias
+Interface de Usuário Aprimorada: Estamos trabalhando em uma interface ainda mais intuitiva, facilitando a configuração e o monitoramento das atividades do firewall.
+
+Integração com IoT: Futuras versões do NetDefender incluirão suporte específico para dispositivos IoT, garantindo que todos os dispositivos conectados à rede estejam protegidos.
+
+Análise Comportamental: Implementaremos análises comportamentais para identificar padrões de tráfego anômalos, aumentando a eficácia na detecção de ameaças.
+
+#NETDEFENDER
+#PYTHON
+#KALILINUX
+#UNIX

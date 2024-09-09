@@ -1,0 +1,88 @@
+{
+    "rules": [
+        {
+            "action": "deny",
+            "protocol": "TCP",
+            "port": "23",
+            "source_ip": "any"
+        },
+        {
+            "action": "deny",
+            "protocol": "TCP",
+            "port": "21",
+            "source_ip": "any"
+        },
+        {
+            "action": "allow",
+            "protocol": "TCP",
+            "port": "80",
+            "source_ip": "any"
+        },
+        {
+            "action": "allow",
+            "protocol": "TCP",
+            "port": "443",
+            "source_ip": "any"
+        },
+        {
+            "action": "allow",
+            "protocol": "TCP",
+            "port": "80",
+            "source_ip": "192.168.1.1"
+        },
+        {
+            "action": "deny",
+            "protocol": "UDP",
+            "port": "53",
+            "source_ip": "0.0.0.0"
+        },
+        {
+            "action": "deny",
+            "protocol": "upd",
+            "port": "443",
+            "source_ip": "192.168.18.11"
+        },
+        {
+            "action": "allow",
+            "protocol": "TCP",
+            "port": "80",
+            "source_ip": "192.168.18.12"
+        },
+        {
+            "action": "allow",
+            "protocol": "SMP",
+            "port": "465",
+            "source_ip": "192.168.18.11"
+        },
+        {
+            "action": "deny",
+            "protocol": "SMB",
+            "port": "465",
+            "source_ip": "192.168.18.8"
+        },
+        {
+            "action": "deny",
+            "protocol": "DHCP",
+            "port": "1111",
+            "source_ip": "192.168.18.14"
+        },
+        {
+            "action": "allow",
+            "protocol": "SMB",
+            "port": "465",
+            "source_ip": "192.168.18.9"
+        },
+        {
+            "action": "allow",
+            "protocol": "HTTPS",
+            "port": "443",
+            "source_ip": "192.168.18.11"
+        },
+        {
+            "action": "deny",
+            "protocol": "SMB",
+            "port": "465",
+            "source_ip": "198.168.18.11"
+        }
+    ]
+}

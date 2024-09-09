@@ -1,0 +1,81 @@
+
+como executar: 
+	python verificador_urls.py -U urls_maliciosas.txt --url http://exemplo.com
+	python verificador_urls.py -D Domain_maliciosas.txt --url http://exemplo.com
+
+Uso de Cores:
+	Vermelho para URLs maliciosas.
+	Amarelo para URLs suspeitas.
+	Verde para URLs seguras.
+	
+
+
+import requests
+from bs4 import BeautifulSoup
+import re
+import sys
+from colorama import Fore, Style, init
+
+# Inicializa o colorama
+init(autoreset=True)
+
+def carregar_lista_negra(arquivo):
+    """Carrega URLs maliciosas de um arquivo .txt."""
+    with open(arquivo, 'r') as f:
+        return [linha.strip() for linha in f.readlines()]
+
+def verificar_url_lista_negra(url, lista_negra):
+    """Verifica se a URL está na lista negra."""
+    if url in lista_negra:
+        return Fore.RED + "URL maliciosa identificada na lista negra." + Style.RESET_ALL
+    return None
+
+def verificar_patterns(url):
+    """Verifica a URL em busca de padrões suspeitos."""
+    if re.search(r'[\\@\\%\\!\\=\\?]', url) or len(url) > 75:
+        return Fore.YELLOW + "URL suspeita devido a padrões comuns." + Style.RESET_ALL
+    return None
+
+def analisar_conteudo(url):
+    """Analisa o conteúdo da página para sinais de phishing."""
+    try:
+        resposta = requests.get(url)
+        soup = BeautifulSoup(resposta.content, 'html.parser')
+        if soup.find('form'):
+            return Fore.YELLOW + "URL suspeita: contém um formulário de login." + Style.RESET_ALL
+        return None
+    except Exception as e:
+        return f"Erro ao acessar a URL: {e}"
+
+def verificar_url(url, lista_negra):
+    """Verifica a URL usando todas as abordagens."""
+    resultado = verificar_url_lista_negra(url, lista_negra)
+    if resultado:
+        return resultado
+    
+    resultado = verificar_patterns(url)
+    if resultado:
+        return resultado
+    
+    resultado = analisar_conteudo(url)
+    if resultado:
+        return resultado
+    
+    return Fore.GREEN + "URL aparentemente segura." + Style.RESET_ALL
+
+if __name__ == "__main__":
+    # Verifica se o nome do arquivo foi fornecido como argumento
+    if len(sys.argv) < 3:
+        print("Uso: python script.py <arquivo_lista_negra.txt> <url>")
+        sys.exit(1)
+
+    arquivo_lista_negra = sys.argv[1]
+    url_teste = sys.argv[2]
+
+    # Carregar a lista negra a partir do arquivo fornecido
+    lista_negra = carregar_lista_negra(arquivo_lista_negra)
+
+    # Testar a função com a URL fornecida
+    resultado = verificar_url(url_teste, lista_negra)
+    print(resultado)
+

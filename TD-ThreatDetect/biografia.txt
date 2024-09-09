@@ -1,0 +1,51 @@
+TIPOS DE VERIFICAÇÕES:
+    Verificação em uma lista negra.
+    Análise de padrões suspeitos.
+    Análise do conteúdo da página.
+
+Verificação na Lista Negra: 
+    Primeiro, verifica se a URL está na lista negra.
+
+Verificação de Padrões: 
+    Em seguida, verifica padrões suspeitos na URL.
+    
+Análise de Conteúdo: 
+    Por fim, faz uma requisição para a URL e analisa
+    o conteúdo da página em busca de formulários de login, 
+    que podem indicar phishing.
+
+O que a ferramenta faz:
+
+Detecção de Ameaças: 
+ThreatDetect é uma ferramenta projetada para identificar e analisar links maliciosos, ajudando os usuários a navegar com segurança na internet.
+
+Classificação de Links: 
+A ferramenta classifica links em categorias, permitindo que os usuários identifiquem rapidamente quais são seguros e quais podem representar riscos.
+
+Suas capacidades:
+Análise em Tempo Real: 
+ThreatDetect realiza análises em tempo real, fornecendo feedback instantâneo sobre a segurança dos links.
+
+Interface Amigável: 
+A ferramenta possui uma interface intuitiva, facilitando o uso mesmo para aqueles que não têm experiência técnica.
+
+Relatórios Detalhados: 
+Gera relatórios que detalham as ameaças detectadas, ajudando os usuários a entender melhor os riscos.
+
+Futuras melhorias:
+
+Integração com Navegadores: 
+Planejamos integrar a ferramenta diretamente em navegadores populares, tornando a detecção de ameaças ainda mais acessível.
+
+Aprendizado de Máquina: 
+Futuras atualizações incluirão algoritmos de aprendizado de máquina para melhorar a precisão na detecção de novas ameaças.
+
+Personalização: 
+Estamos trabalhando em opções de personalização, permitindo que os usuários ajustem as configurações de segurança de acordo com suas necessidades.
+
+#TD
+#TD-THREATDETECT
+#PYTHON
+#PYTHON3
+#KALILINUX
+

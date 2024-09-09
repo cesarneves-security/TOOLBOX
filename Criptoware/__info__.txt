@@ -1,0 +1,41 @@
+#RANSOMWARE | Criei um Ransomware e Acabei por me infectar, esquecendo a chave de acesso.
+#Nome: #criptoware
+
+O Criptoware-RansomWare é um projeto educacional desenvolvido para simular o funcionamento de um ransomware, proporcionando uma compreensão prática sobre como esses mecanismos operam no mundo real. Este software foi projetado para demonstrar os princípios de criptografia e segurança de dados, permitindo que os usuários aprendam sobre as implicações da segurança cibernética, ao mesmo tempo em que exploram as vulnerabilidades que podem ser exploradas por ataques de ransomware.
+
+Funcionalidades
+O Criptoware-RansomWare possui uma série de funcionalidades que o tornam uma ferramenta educativa valiosa:
+
+Criptografia de Arquivos: Utiliza o algoritmo de criptografia Fernet para proteger arquivos armazenados em um diretório específico.
+
+Chave de Desbloqueio: Permite que os usuários insiram uma chave de desbloqueio padrão para descriptografar os arquivos e recuperar o acesso.
+
+Contagem Regressiva: Implementa um temporizador que conta o tempo restante até que os arquivos sejam deletados, aumentando a pressão do "resgate".
+
+Alteração de Fundo: Permite que os usuários escolham entre diferentes imagens de fundo para personalizar a interface do ransomware.
+
+Mensagens de Resgate: Exibe mensagens que informam os usuários sobre a situação dos seus arquivos e os passos necessários para a recuperação.
+
+Simulação de Deleção: Oferece uma simulação de deleção de arquivos após um número definido de tentativas de inserção de chave incorreta.
+
+Melhorias Futuras
+
+Para aprimorar ainda mais o Criptoware-RansomWare, várias melhorias e novas funcionalidades estão sendo consideradas:
+
+Interface do Usuário: Melhorar a estética e usabilidade da interface, tornando-a mais intuitiva e amigável.
+
+Relatórios de Atividade: Implementar uma funcionalidade que gere relatórios sobre as tentativas de desbloqueio e o tempo restante.
+
+Múltiplas Chaves: Permitir a definição de várias chaves de desbloqueio para simular diferentes cenários de ransomware.
+
+Melhoria na Criptografia: Explorar e integrar métodos de criptografia mais avançados e seguros, além do Fernet.
+
+Simulação de Ataque: Criar um modo de simulação onde os usuários possam experimentar um ataque de ransomware em um ambiente controlado.
+
+Considerações Finais
+O Criptoware-RansomWare não é apenas uma ferramenta de simulação, mas também um recurso educacional que visa aumentar a conscientização sobre segurança da informação e os riscos associados a ransomware. Através de suas funcionalidades e potenciais melhorias, o projeto pode se tornar uma plataforma valiosa para estudantes, profissionais de segurança e entusiastas da tecnologia. Se você tem interesse em contribuir ou aprender mais, fique à vontade para se juntar a nós nesta jornada de aprendizado e descoberta.
+
+#criptoware
+#ransomware
+#python3
+#kalilinux
